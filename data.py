@@ -79,8 +79,8 @@ def update_todo(id):
 
 
 
-@app.route('/rd_todo', methods=["GET"])
-@app.route('/todo/<string:direction>', methods=["GET"])
+@app.route("/rd_todo/<string:id>, methods=["GET"])
+@app.route('/rd_todo/<string:direction>', methods=["GET"])
 
 def todo(direction=None):
     # direction is optional
